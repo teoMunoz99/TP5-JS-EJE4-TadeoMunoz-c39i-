@@ -2,17 +2,18 @@
 
 body{
     font-family: 'Bebas Neue', cursive;
-    background: rgb(21, 0, 34);
-}
-
-p{
     font-size: 2rem;
-    color: whitesmoke;
+    color: azure;
 }
 
-.luzNeon{
-    text-shadow: 0 0 1px whitesmoke,
-    0 0 6px whitesmoke,
-    0 0 16px whitesmoke,
-    0 0 26px whitesmoke;
+#imgBg{
+    background-image: url(../img/vidrio.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    background: rgb( 5, 7, 12, 0.40);
 }
